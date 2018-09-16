@@ -25,7 +25,7 @@ SECRET_KEY = 'q*h_@+2$7r4%y&s1foow4=dd1=7au5dw)vdaq-fse3-6__%tmm'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'gippopotam.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'gippopotam.pythonanywhere.com', 'klunak.ru']
 
 
 # Application definition
