@@ -1,4 +1,6 @@
 dima
 admin
 
+python manage.py runserver
 echo "from django.contrib.auth.models import User; User.objects.filter(email='admin@example.com').delete(); User.objects.create_superuser('dima', 'admin@example.com', 'admin')" | python manage.py shell
+git pull origin master
