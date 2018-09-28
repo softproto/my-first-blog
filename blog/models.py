@@ -19,3 +19,7 @@ class Post(models.Model):
         return self.title
 
 
+class Subscribers(models.Model):
+    email = models.EmailField()
+    name = models.CharField(max_length=128)
+
